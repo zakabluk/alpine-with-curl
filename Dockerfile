@@ -1,5 +1,5 @@
 FROM alpine
 
 RUN apk add --update \
-    curl \
+    mysql-client \
     && rm -rf /var/cache/apk/*
